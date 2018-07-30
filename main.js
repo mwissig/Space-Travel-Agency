@@ -3,6 +3,7 @@ var adRan = false;
 function waitFiveSeconds() {
   setTimeout(function() {
     document.getElementById('earthbox').classList.add("hide");
+        document.getElementById('letsgo').classList.add("hide");
   }, 5000);
 }
 
